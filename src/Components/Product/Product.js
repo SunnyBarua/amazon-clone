@@ -18,14 +18,16 @@ function Product({ id, title, image, price, rating }) {
   };
   return (
     <div className="product">
+      <img src={image} alt="" />
+
       <div className="product__details">
-        <p>{title}</p>
+        <p style={{ width: "120px" }}>{title}</p>
         <p className="product__price">
           <small>$</small>
           <strong>{price}</strong>
         </p>
 
-        <div className="product__rating">
+        <div className="product__rating" style={{ marginLeft: "15px" }}>
           {Array(rating)
             .fill()
             .map((_) => (
@@ -33,7 +35,7 @@ function Product({ id, title, image, price, rating }) {
             ))}
         </div>
       </div>
-      <img src={image} alt="" />
+
       <button onClick={addToBasket}>Add to basket</button>
     </div>
   );

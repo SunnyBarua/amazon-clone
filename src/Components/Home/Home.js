@@ -13,40 +13,40 @@ function Home() {
       <div className="home__row">
         <Product
           id="12344567"
-          title="amazon banner"
-          price={12}
+          title="Samsung Galaxy 11 Pro"
+          price={700}
           rating={4}
-          image="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+          image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg"
         />
         <Product
           id="12344567"
-          title="Iphone 10"
-          price={12}
+          title="Jay Shetty"
+          price={14}
           rating={4}
-          image="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+          image="https://m.media-amazon.com/images/I/51kWfNIYjzL.jpg"
         />
       </div>
       <div className="home__row">
         <Product
           id="12344567"
-          title="amazon banner"
-          price={12}
+          title="J2 Micro Speaker "
+          price={100}
           rating={4}
-          image="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+          image="https://images-na.ssl-images-amazon.com/images/G/01/amazonglobal/images/email/asins/DURM-230DA9039F21E515._V535729156_.jpg"
         />
         <Product
           id="12344567"
-          title="amazon banner"
-          price={12}
+          title="amazon Jio Prime"
+          price={300}
           rating={4}
-          image="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+          image="https://images-na.ssl-images-amazon.com/images/I/41h0H4SCgPL._AC_US160_.jpg"
         />
         <Product
           id="12344567"
-          title="amazon banner"
-          price={12}
+          title="Dell Laptop"
+          price={600}
           rating={4}
-          image="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+          image="https://images-na.ssl-images-amazon.com/images/I/51svyK3ruYL._AC_US160_.jpg"
         />
       </div>
     </div>
